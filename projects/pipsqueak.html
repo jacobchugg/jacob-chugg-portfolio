@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pipsqueak Engine: Design for Manufacture — Jacob Chugg</title>
+<meta name="description" content="Team redesign of a one-cylinder air engine for low-volume manufacture, from CAD and DFM through machining, assembly, and a functioning physical engine.">
+<link rel="canonical" href="https://jacobchugg.com/projects/pipsqueak.html">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pipsqueak Engine: Design for Manufacture — Jacob Chugg">
+<meta property="og:description" content="Team redesign of a one-cylinder air engine for low-volume manufacture, from CAD and DFM through machining, assembly, and a functioning physical engine.">
+<meta property="og:image" content="https://jacobchugg.com/assets/img/misc/og-cover.jpg">
+<meta property="og:url" content="https://jacobchugg.com/projects/pipsqueak.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pipsqueak Engine: Design for Manufacture — Jacob Chugg">
+<meta name="twitter:description" content="Team redesign of a one-cylinder air engine for low-volume manufacture, from CAD and DFM through machining, assembly, and a functioning physical engine.">
+<meta name="twitter:image" content="https://jacobchugg.com/assets/img/misc/og-cover.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="../index.html" aria-label="Jacob Chugg home">
+  <svg class="brand-mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <circle cx="32" cy="32" r="20" fill="none" stroke="currentColor" stroke-width="2"/>
+    <circle cx="32" cy="32" r="3.4" fill="currentColor"/>
+    <line x1="32" y1="4" x2="32" y2="14" stroke="currentColor" stroke-width="2"/>
+    <line x1="32" y1="50" x2="32" y2="60" stroke="currentColor" stroke-width="2"/>
+    <line x1="4" y1="32" x2="14" y2="32" stroke="currentColor" stroke-width="2"/>
+    <line x1="50" y1="32" x2="60" y2="32" stroke="currentColor" stroke-width="2"/>
+  </svg>
+  <span class="brand-text">
+    <span class="brand-name">Jacob Chugg</span>
+    <span class="brand-sub">Mechanical Engineering</span>
+  </span>
+</a>
+    <nav class="nav-links" id="nav-links" aria-label="Primary">
+      <a href="../projects.html" data-nav="projects" class="is-active">Projects</a>
+      <a href="../gallery.html" data-nav="gallery">CAD Gallery</a>
+      <a href="../about.html" data-nav="about">About</a>
+      <a href="../resume.html" data-nav="resume">Resume</a>
+      <a href="../contact.html" data-nav="contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-controls="nav-links" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+<main id="main">
+
+<section class="cs-hero blueprint-bg">
+  <div class="container">
+    <span class="eyebrow reveal">Team Project &middot; BYU Mechanical Engineering &middot; 2026</span>
+    <h1 class="h1 reveal">Pipsqueak Engine: Design for Manufacture</h1>
+    <p class="lede reveal">A team redesign of an existing one-cylinder "Pipsqueak" air-engine for low-volume production &mdash; simplifying the manufacturing process from CAD through machining, assembly, and a functioning physical engine.</p>
+
+    <dl class="title-block reveal">
+      <dl><dt>Team</dt><dd>Team 3, BYU ME</dd></dl>
+      <dl><dt>My Role</dt><dd>Modeling, Machining, Assembly</dd></dl>
+      <dl><dt>Tools</dt><dd>SolidWorks, DFM</dd></dl>
+      <dl><dt>Processes</dt><dd>Manual Machining, Laser Cutting</dd></dl>
+    </dl>
+  </div>
+</section>
+
+<div class="container">
+  <figure class="cs-hero-media reveal">
+    <img src="../assets/img/pipsqueak/pipsqueak-photo-1-lg.webp" alt="Machined Pipsqueak air engine, finished physical hardware">
+  </figure>
+</div>
+
+<section class="story-section">
+  <div class="container">
+    <div class="story-row reveal">
+      <div class="story-copy">
+        <div class="story-step">Original Manufacturing Challenge</div>
+        <h3 class="h3">Too Many Processes for the Volume</h3>
+        <p>The team evaluated an existing one-cylinder Pipsqueak air-engine design for a production run of roughly 100&ndash;1,000 units annually. The original design called for a wide mix of processes &mdash; manual machining, CNC milling, sand casting, and powder metallurgy &mdash; that made it impractical to produce efficiently at that volume.</p>
+      </div>
+      <div class="story-media pad">
+        <img src="../assets/img/pipsqueak/pipsqueak-rendering-lg.webp" alt="Pipsqueak engine CAD rendering" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="story-divider"></div></div>
+
+<section class="story-section">
+  <div class="container">
+    <div class="story-row reverse reveal">
+      <div class="story-copy">
+        <div class="story-step">DFM Redesign</div>
+        <h3 class="h3">Consolidating Around Two Processes</h3>
+        <p>The team redesigned several components to consolidate production around manual machining and laser cutting. The crank wheel moved from a round, powder-produced geometry to a rectangular, laser-cut arm; the cylinder changed from a hexagonal to a square cross-section to simplify fixturing and precision machining; and the flywheel was reworked around manual turning in place of sand casting. Other parts were adjusted to improve sheet-material utilization for the laser-cut components.</p>
+      </div>
+      <div class="story-media pad">
+        <img src="../assets/img/pipsqueak/pipsqueak-photo-2-sm.webp" alt="Machined engine components on the workbench" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="story-divider"></div></div>
+
+<section class="story-section">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:28px;">
+      <div class="story-step">Manufacturing Process Selection</div>
+      <h3 class="h3">Drawing Package</h3>
+      <p style="color:var(--text-soft); max-width:70ch; line-height:1.7; margin-top:12px;">With manual machining and laser cutting selected as the primary processes, the team produced toleranced drawings and an exploded assembly view identifying every part, its material, and its quantity.</p>
+    </div>
+    <div class="doc-grid reveal" style="grid-template-columns:repeat(1,minmax(0,1fr)); max-width:640px;">
+      <button class="doc-card" data-lightbox-trigger data-full="../assets/img/drawings/pipsqueak-exploded-lg.webp" data-caption="Pipsqueak engine exploded assembly view with bill of materials">
+    <span class="doc-thumb"><img src="../assets/img/drawings/pipsqueak-exploded-sm.webp" alt="Pipsqueak engine exploded assembly view with bill of materials" loading="lazy"></span>
+    <span class="doc-label">Exploded Assembly &amp; BOM <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 4H4V7M13 4H16V7M16 13V16H13M4 13V16H7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+  </button>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="story-divider"></div></div>
+
+<section class="story-section">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:28px;">
+      <div class="story-step">Machining &amp; Assembly</div>
+      <h3 class="h3">From Drawing to Finished Part</h3>
+      <p style="color:var(--text-soft); max-width:70ch; line-height:1.7; margin-top:12px; margin-bottom:32px;">I modeled, machined, and assembled components as part of the team, applying tolerancing, fits, and DFM principles from drawing to finished part.</p>
+    </div>
+    <div class="photo-grid reveal">
+      <img src="../assets/img/pipsqueak/pipsqueak-photo-2-lg.webp" alt="Pipsqueak engine components during machining" loading="lazy">
+      <img src="../assets/img/pipsqueak/pipsqueak-photo-3-lg.webp" alt="Assembled Pipsqueak engine on the workbench" loading="lazy">
+      <img src="../assets/img/pipsqueak/pipsqueak-photo-4-lg.webp" alt="Pipsqueak engine, front view of finished assembly" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="story-divider"></div></div>
+
+<section class="story-section">
+  <div class="container">
+    <div class="story-row reveal">
+      <div class="story-copy">
+        <div class="story-step">Functional Prototype</div>
+        <h3 class="h3">A Working Engine</h3>
+        <p>The redesigned engine was built into a functioning physical prototype &mdash; carrying the project from CAD and design-for-manufacture analysis through machined parts and a complete, assembled engine.</p>
+      </div>
+      <div class="story-media pad">
+        <img src="../assets/img/pipsqueak/pipsqueak-photo-1-sm.webp" alt="Finished Pipsqueak engine, side profile" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<nav class="next-project">
+  <div class="container">
+    <a href="../gallery.html" class="reveal">
+      <div>
+        <div class="np-label">See More</div>
+        <div class="np-title">CAD &amp; Design Gallery</div>
+      </div>
+      <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+</nav>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Jacob Chugg</h4>
+        <p style="max-width:34ch;">Mechanical Engineering student at Brigham Young University, focused on aerospace/defense and mechanical design engineering.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../gallery.html">CAD Gallery</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../resume.html">Resume</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:jacobchugg20@gmail.com">jacobchugg20@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/jacob-chugg-a53543227" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="tel:+13169908890">(316) 990-8890</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> Jacob Chugg</span>
+      <span>Provo, Utah</span>
+    </div>
+  </div>
+</footer>
+<div class="lightbox" data-lightbox aria-hidden="true">
+  <div class="lightbox-inner">
+    <div class="lightbox-frame"><img src="" alt=""></div>
+    <div class="lightbox-caption"><span data-lightbox-caption></span><span>ESC or click outside to close</span></div>
+  </div>
+  <button class="lightbox-close" aria-label="Close"><svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 5L15 15M15 5L5 15" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></button>
+</div>
+<script src="../js/main.js" defer></script>
+</body>
+</html>
