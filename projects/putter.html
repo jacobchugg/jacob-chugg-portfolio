@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MOI-Optimized Mallet Putter — Jacob Chugg</title>
-<meta name="description" content="A custom mallet-style putter head developed through SolidWorks mass-property studies to align the shaft axis through the center of mass, with a full manufacturing drawing package.">
+<meta name="description" content="A custom mallet-style putter head developed through SolidWorks mass-property studies to align the shaft axis through the center of mass — CNC machined, with hand-turned brass weights, now test-assembled ahead of anodizing.">
 <link rel="canonical" href="https://jacobchugg.com/projects/putter.html">
 <link rel="icon" type="image/svg+xml" href="../favicon.svg">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="MOI-Optimized Mallet Putter — Jacob Chugg">
-<meta property="og:description" content="A custom mallet-style putter head developed through SolidWorks mass-property studies to align the shaft axis through the center of mass, with a full manufacturing drawing package.">
+<meta property="og:description" content="A custom mallet-style putter head developed through SolidWorks mass-property studies to align the shaft axis through the center of mass — CNC machined, with hand-turned brass weights, now test-assembled ahead of anodizing.">
 <meta property="og:image" content="https://jacobchugg.com/assets/img/misc/og-cover.jpg">
 <meta property="og:url" content="https://jacobchugg.com/projects/putter.html">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="MOI-Optimized Mallet Putter — Jacob Chugg">
-<meta name="twitter:description" content="A custom mallet-style putter head developed through SolidWorks mass-property studies to align the shaft axis through the center of mass, with a full manufacturing drawing package.">
+<meta name="twitter:description" content="A custom mallet-style putter head developed through SolidWorks mass-property studies to align the shaft axis through the center of mass — CNC machined, with hand-turned brass weights, now test-assembled ahead of anodizing.">
 <meta name="twitter:image" content="https://jacobchugg.com/assets/img/misc/og-cover.jpg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,14 +63,14 @@
       <dl><dt>Role</dt><dd>Design &amp; Manufacturing</dd></dl>
       <dl><dt>Tools</dt><dd>SolidWorks, Mass Properties, GD&amp;T</dd></dl>
       <dl><dt>Materials</dt><dd>6061 Aluminum, Brass</dd></dl>
-      <dl><dt>Status</dt><dd><span class="status-pill"><span class="dot"></span>In Manufacturing</span></dd></dl>
+      <dl><dt>Status</dt><dd><span class="status-pill"><span class="dot"></span>Head &amp; Weights Machined</span></dd></dl>
     </dl>
   </div>
 </section>
 
 <div class="container">
   <figure class="cs-hero-media reveal">
-    <img src="../assets/img/putter/putter-rendering-1-lg.webp" alt="MOI-optimized putter head, top isometric CAD render showing cavity geometry">
+    <img src="../assets/img/putter/putter-finished-hero-lg.webp" alt="CNC-machined aluminum putter head with brass weights installed, completed head assembly">
   </figure>
 </div>
 
@@ -116,6 +116,22 @@
         <h3 class="h3">Iterating with SolidWorks Mass Properties</h3>
         <p>SolidWorks mass-property and mass-distribution tools were used throughout development to track the head's center of mass relative to the shaft axis as the geometry changed. Wing length, cavity depth, and wall thickness were all adjusted in response to these studies rather than by eye.</p>
         <p>The target weight for the finished head-and-body assembly is approximately 360&nbsp;g, in line with typical mallet-putter weighting.</p>
+
+        <div class="mass-validation">
+          <div class="mv-label">Mass Validation</div>
+          <div class="mv-compare">
+            <div class="mv-item">
+              <div class="mv-value">377.53 g</div>
+              <div class="mv-key">SolidWorks Predicted</div>
+            </div>
+            <div class="mv-arrow">&rarr;</div>
+            <div class="mv-item">
+              <div class="mv-value">377 g</div>
+              <div class="mv-key">Measured (Household Scale)</div>
+            </div>
+          </div>
+          <p class="mv-note">Assembled head with brass weights and screws installed. The measured mass closely matches the SolidWorks model prediction.</p>
+        </div>
       </div>
       <div class="story-media pad">
         <img src="../assets/img/putter/putter-rendering-1-lg.webp" alt="Putter head geometry used for mass-property analysis" loading="lazy">
@@ -174,11 +190,78 @@
     <div class="story-row reveal">
       <div class="story-copy">
         <div class="story-step">Manufacturing</div>
-        <h3 class="h3">Currently In Progress</h3>
-        <p>The brass weights are being manually machined, and the aluminum head is being prepared for CNC machining. All manufacturing drawings are complete and toleranced to support this stage of production.</p>
+        <h3 class="h3">CNC Milling and Manual Turning</h3>
+        <p>The aluminum head was CNC machined from a 6061 block, following the toleranced drawing above. The two brass weights were manufactured separately by hand &mdash; faced and turned on a manual lathe rather than machined on the mill. Both parts are now complete and test-fit into the assembly shown below.</p>
       </div>
       <div class="story-media pad">
-        <img src="../assets/img/drawings/putter-head-drawing-sm.webp" alt="Putter head drawing, section views and dimensions" loading="lazy">
+        <img src="../assets/img/putter/putter-machining-1-sm.webp" alt="CNC mill roughing the aluminum putter head block, flood coolant active" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="story-divider"></div></div>
+
+<section class="section">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:32px;">
+      <div class="story-step">Manufacturing &amp; Validation</div>
+      <h3 class="h3">Machined &amp; Assembled &mdash; Anodizing and Shaft Next</h3>
+      <p style="color:var(--text-soft); max-width:70ch; line-height:1.7; margin-top:12px;">The head and weights are now fully machined and assembled together for the first time. Two steps remain before the putter is finished: anodizing the head, then joining it to the shaft and wrapping the grip.</p>
+    </div>
+
+    <div class="video-row reveal">
+      <div class="video-card">
+        <div class="video-wrap">
+          <video playsinline preload="none" poster="../assets/img/putter/putter-cnc-1-poster.webp">
+            <source src="../assets/video/putter-cnc-1.mp4" type="video/mp4">
+          </video>
+          <button class="play-btn" aria-label="Play CNC machining video 1"><svg viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M6 4L16 10L6 16V4Z"/></svg></button>
+        </div>
+        <div class="video-caption">CNC milling the aluminum head, clip 1</div>
+      </div>
+      <div class="video-card">
+        <div class="video-wrap">
+          <video playsinline preload="none" poster="../assets/img/putter/putter-cnc-2-poster.webp">
+            <source src="../assets/video/putter-cnc-2.mp4" type="video/mp4">
+          </video>
+          <button class="play-btn" aria-label="Play CNC machining video 2"><svg viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M6 4L16 10L6 16V4Z"/></svg></button>
+        </div>
+        <div class="video-caption">CNC milling the aluminum head, clip 2</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="story-divider"></div></div>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:28px;">
+      <div class="story-step">CNC Machining Progress</div>
+      <h3 class="h3">From Block to Head</h3>
+      <p style="color:var(--text-soft); max-width:70ch; line-height:1.7; margin-top:12px;">Roughing, forming the cavity, and machining the weight pockets, in that order.</p>
+    </div>
+    <div class="photo-grid reveal">
+      <img src="../assets/img/putter/putter-machining-1-lg.webp" alt="Rough milling pass on the aluminum block, coolant flood active" loading="lazy">
+      <img src="../assets/img/putter/putter-machining-cavity-lg.webp" alt="Cavity being formed on the CNC mill, top-down view" loading="lazy">
+      <img src="../assets/img/putter/putter-machining-4-lg.webp" alt="CNC-fixtured view showing the weight pockets and underside geometry" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="story-divider"></div></div>
+
+<section class="story-section">
+  <div class="container">
+    <div class="story-row reveal">
+      <div class="story-copy">
+        <div class="story-step">Face Milling Detail</div>
+        <h3 class="h3">Surface Finish, Straight Off the Mill</h3>
+        <p>A closer look at the face-milled surface on the cavity wall, showing the tool-mark pattern left by the end mill before any finishing or anodizing. This is the as-machined finish &mdash; nothing has been polished or coated yet.</p>
+      </div>
+      <div class="story-media pad">
+        <img src="../assets/img/putter/putter-machining-3-lg.webp" alt="Close-up of the face-milling tool-mark pattern on the putter head" loading="lazy">
       </div>
     </div>
   </div>
@@ -189,13 +272,32 @@
 <section class="section">
   <div class="container">
     <div class="reveal" style="margin-bottom:28px;">
-      <div class="story-step">Manufacturing &amp; Validation</div>
-      <h3 class="h3">Final Result</h3>
+      <div class="story-step">Completed Head Assembly</div>
+      <h3 class="h3">Machined Head Assembly, Pre-Anodize</h3>
+      <p style="color:var(--text-soft); max-width:70ch; line-height:1.7; margin-top:12px;">The finish shown here is straight off the mill and lathe &mdash; the head has not yet been anodized. Both brass weights are seated and secured with socket flat-head screws.</p>
     </div>
+    <div class="photo-grid reveal">
+      <img src="../assets/img/putter/putter-finished-1-lg.webp" alt="Completed head assembly with both brass weights installed, angled view" loading="lazy">
+      <img src="../assets/img/putter/putter-finished-2-lg.webp" alt="Close-up of a brass weight seated in the machined pocket, shown next to a pencil for scale" loading="lazy">
+      <img src="../assets/img/putter/putter-finished-3-lg.webp" alt="Angled close-up of the machined head and brass weight" loading="lazy">
+    </div>
+
+    <div class="placeholder-card reveal" style="margin-top:18px;">
+      <svg class="ph-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="6" width="18" height="14" rx="1.5" stroke="currentColor" stroke-width="1.3"/><path d="M3 9H21" stroke="currentColor" stroke-width="1.3"/><circle cx="8" cy="4.5" r="1" fill="currentColor"/><circle cx="16" cy="4.5" r="1" fill="currentColor"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.3"/></svg>
+      <h4>Top view coming soon</h4>
+      <p>A clean, straight-down photo of the completed head assembly &mdash; showing the mallet outline, cavity shape, and top sight line &mdash; will go here once one is available.</p>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="story-divider"></div></div>
+
+<section class="section">
+  <div class="container">
     <div class="placeholder-card reveal">
       <svg class="ph-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="6" width="18" height="14" rx="1.5" stroke="currentColor" stroke-width="1.3"/><path d="M3 9H21" stroke="currentColor" stroke-width="1.3"/><circle cx="8" cy="4.5" r="1" fill="currentColor"/><circle cx="16" cy="4.5" r="1" fill="currentColor"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.3"/></svg>
-      <h4>Machining &amp; final photography coming soon</h4>
-      <p>This section is reserved for photographs of the machined aluminum head, the finished brass weights, final assembly, and video of the putter in use. It will be updated as manufacturing is completed.</p>
+      <h4>What's left</h4>
+      <p>Anodizing the head, joining the head to the shaft, and wrapping the grip. Photos and video of the completed putter &mdash; including it in use &mdash; will be added here once that's done.</p>
     </div>
   </div>
 </section>
