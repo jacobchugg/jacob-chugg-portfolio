@@ -706,7 +706,42 @@ hr.rule {
 .diagram-line { stroke: #a7a196; stroke-width: 1.4; fill: none; }
 .diagram-label { font-family: var(--font-mono); font-size: 10px; fill: var(--ink-soft); }
 
-/* Next project nav */
+/* Mass validation callout (small technical comparison card) */
+.mass-validation {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 22px 26px;
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.mass-validation .mv-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  white-space: nowrap;
+}
+.mass-validation .mv-compare {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.mass-validation .mv-item { text-align: left; }
+.mass-validation .mv-value { font-family: var(--font-display); font-size: 1.4rem; font-weight: 600; color: var(--text); line-height: 1.1; }
+.mass-validation .mv-key { font-family: var(--font-mono); font-size: 0.66rem; color: var(--text-muted); letter-spacing: 0.03em; margin-top: 4px; }
+.mass-validation .mv-arrow { color: var(--text-muted); font-size: 1.1rem; }
+.mass-validation .mv-note { font-size: 0.86rem; color: var(--text-soft); line-height: 1.5; flex-basis: 100%; border-top: 1px solid var(--border-soft); padding-top: 14px; margin-top: 4px; }
+@media (max-width: 640px) {
+  .mass-validation { padding: 20px; }
+  .mass-validation .mv-compare { flex-direction: column; align-items: flex-start; gap: 14px; }
+  .mass-validation .mv-arrow { display: none; }
+}
+
 .next-project {
   border-top: 1px solid var(--border-soft);
   padding: clamp(40px, 6vw, 64px) 0;
